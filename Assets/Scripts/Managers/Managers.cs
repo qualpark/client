@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Managers : MonoBehaviour
 {
+    // 싱글턴
     static Managers s_instance;
     public static Managers Instance { get { init(); return s_instance; } }
 
